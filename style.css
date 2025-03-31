@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background-color: #71bcda; /* Fondo oscuro elegante */
+    color: #e0e0e0;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor de desplazamiento */
+.scroll-box {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Diseño flexible para centrar elementos */
+.full-height {
+    height: 100%;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Secciones de altura */
+.section-70 {
+    height: 70%;
+}
+
+.section-30 {
+    height: 30%;
+}
+
+/* Estilo de procesos */
+.myProcess {
+    width: 100%;
+    height: 2rem;
+    background-color: #ff4d4d;
+    border: solid #333 1px;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.myProcess:hover {
+    background-color: #ff1a1a;
+}
+
+/* Estilo de lotes */
+.myBatch {
+    width: 100%;
+    height: 150px;
+    overflow-y: auto;
+    background-color: #ffeb3b;
+    border: solid #333 1px;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.myBatch:hover {
+    background-color: #fdd835;
+}
+
+/* Tablas con mejor presentación */
+table {
+    width: 60%;
+    margin: 10px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+td {
+    background-color: #88bdf1;
+}
+
+/* Barras de progreso */
+.barProcess {
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.sections{
+    background-color: #4c8663;
+}
+
+.blur-box {
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+
+
